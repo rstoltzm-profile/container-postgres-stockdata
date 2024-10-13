@@ -8,7 +8,8 @@
 
 ## Steps
 1. docker-compose up --build
-2. go to 3-query-postgres
+    * this will run data-collector, startup database, load data
+3. go to 3-query-postgres
     * build and run container following notes.txt
 
 ## Improvements
