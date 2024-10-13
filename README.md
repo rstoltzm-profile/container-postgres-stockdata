@@ -24,3 +24,13 @@
 ![image](https://github.com/user-attachments/assets/e7fe4fac-897d-4cf1-b654-2a6b85395880)
 ### query-postgres will look like this, run as separate container
 ![image](https://github.com/user-attachments/assets/c9472c35-d7bf-4593-b123-1efddac4e0fa)
+
+### Postgres startup
+![image](https://github.com/user-attachments/assets/9d450ab4-5703-4137-8dd3-27b689ee23af)
+
+### data_collector
+![image](https://github.com/user-attachments/assets/8acc68a6-2969-4dee-b0d5-f7ba7beb2e58)
+
+### data_loader
+![image](https://github.com/user-attachments/assets/47a5b6a2-a63d-4f26-8314-ff0f4d0955c7)
+
