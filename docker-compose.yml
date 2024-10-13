@@ -1,0 +1,29 @@
+version: '3.8'
+
+services:
+  data_collector:
+    build: ./1-data-collector
+    volumes:
+      - ./app/data/raw:/app/data/raw
+
+  data_loader:
+    build: ./2-data-loader
+    depends_on:
+      - postgres
+      - data_collector
+    volumes:
+      - ./app/data/raw:/app/data/raw
+
+  postgres:
+    image: postgres:latest
+    environment:
+      POSTGRES_USER: user
+      POSTGRES_PASSWORD: password
+      POSTGRES_DB: mydatabase
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    ports:
+      - "5432:5432"
+
+volumes:
+  postgres_data:
