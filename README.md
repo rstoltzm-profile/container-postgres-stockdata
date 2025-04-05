@@ -1,11 +1,14 @@
 # postgres container project
-![image](https://github.com/user-attachments/assets/0d148acc-8597-454a-80b3-d9a3ddd6a04e)
 
 ## Overview
 1. Collect data
 2. Create Postgres db container
 3. Load data
 4. Query data with external container
+
+## Diagram
+![image](https://github.com/user-attachments/assets/b716ee7c-58ee-4939-be89-a257b8a420ef)
+
 
 ## Steps
 1. docker-compose up --build
